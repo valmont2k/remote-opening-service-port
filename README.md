@@ -1,4 +1,6 @@
-for what: simple create iptables rule for opening port
+for what: simple create iptables rule for opening port(working only on linux)
+
+it analog of port knocking https://en.wikipedia.org/wiki/Port_knocking but more "smart"
 
 
 how it works:
@@ -20,7 +22,7 @@ how it works inside:
 easy start
 1) correct iptablesaddrule.sh and move it to /usr/local/bin
 2) add content this file crontab to your crontab
-3) create .htaccess and .htpasswd with user alin or your own
+3) install apache2 if you not have it and create .htaccess and .htpasswd with user alin or your own
 
 
 
