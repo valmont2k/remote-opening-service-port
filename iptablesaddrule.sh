@@ -29,7 +29,7 @@ ips=`cat /var/www/serversomewhere.ru/logs/ips |sort|uniq`
 
 echo ips is $ips
       
-MYIP=222.222.222.222
+MYIP=1.1.1.1
 HOST=192.168.0.1
 
 for ip in $ips
